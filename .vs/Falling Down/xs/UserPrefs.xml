@@ -1,11 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Script/PlayerBounds.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Helper Script/SoundManager.cs">
     <Files>
       <File FileName="Assets/Scripts/BG Script/BGScript.cs" Line="25" Column="73" />
-      <File FileName="Assets/Scripts/Platform Scripts/PlatformScript.cs" Line="31" Column="1" />
+      <File FileName="Assets/Scripts/Platform Scripts/PlatformScript.cs" Line="79" Column="14" />
       <File FileName="Assets/Scripts/Platform Scripts/PlatformSpawner.cs" Line="78" Column="42" />
-      <File FileName="Assets/Scripts/Player Script/PlayerMovement.cs" Line="24" Column="12" />
-      <File FileName="Assets/Scripts/Player Script/PlayerBounds.cs" Line="7" Column="23" />
+      <File FileName="Assets/Scripts/Player Script/PlayerMovement.cs" Line="30" Column="31" />
+      <File FileName="Assets/Scripts/Player Script/PlayerBounds.cs" Line="37" Column="38" />
+      <File FileName="Assets/Scripts/Helper Script/GameManager.cs" Line="27" Column="1" />
+      <File FileName="Assets/Scripts/Helper Script/SoundManager.cs" Line="7" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,10 +17,11 @@
               <Node name="Assets" expanded="True">
                 <Node name="Scripts" expanded="True">
                   <Node name="BG Script" expanded="True" />
-                  <Node name="Platform Scripts" expanded="True" />
-                  <Node name="Player Script" expanded="True">
-                    <Node name="PlayerBounds.cs" selected="True" />
+                  <Node name="Helper Script" expanded="True">
+                    <Node name="SoundManager.cs" selected="True" />
                   </Node>
+                  <Node name="Platform Scripts" expanded="True" />
+                  <Node name="Player Script" expanded="True" />
                 </Node>
               </Node>
             </Node>

@@ -295,6 +295,8 @@
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
 "Assets/Scripts/BG Script/BGScript.cs"
+"Assets/Scripts/Helper Script/GameManager.cs"
+"Assets/Scripts/Helper Script/SoundManager.cs"
 "Assets/Scripts/Platform Scripts/PlatformScript.cs"
 "Assets/Scripts/Platform Scripts/PlatformSpawner.cs"
 "Assets/Scripts/Player Script/PlayerBounds.cs"

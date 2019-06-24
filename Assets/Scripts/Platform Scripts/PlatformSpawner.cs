@@ -78,7 +78,7 @@ public class PlatformSpawner : MonoBehaviour
                 platform_Spawn_Count = 0;
             }
             newplatform.transform.parent = transform;
-            current_Platform_Spawn_Timer = 0;
+            current_Platform_Spawn_Timer = 0f;
         }
     }
 }

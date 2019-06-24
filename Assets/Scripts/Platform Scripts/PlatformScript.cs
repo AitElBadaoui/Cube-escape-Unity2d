@@ -46,7 +46,7 @@ public class PlatformScript : MonoBehaviour
 
     void DeactivateGameObject()
     {
-        //TO-DO : IceBreakSound()
+        SoundManager.instance.IceBreakSound();
         gameObject.SetActive(false);
 
     }
@@ -57,7 +57,8 @@ public class PlatformScript : MonoBehaviour
             if (is_Spike)
             {
                 target.transform.position = new Vector2(1000f, 1000f);
-                //TO-DO : GameOver() + Restart();
+                SoundManager.instance.DeathSound();
+                GameManager.instance.RestartGame();
 
 
             }
@@ -71,13 +72,13 @@ public class PlatformScript : MonoBehaviour
             if (is_Breakable)
             {
 
-                //TO-DO : LandSound();`
+                SoundManager.instance.LandSound();
                 animator.Play("Break");
 
             }
             if (is_Platform)
             {
-                //TO-DO : LandSound();
+                SoundManager.instance.LandSound();
             }
         }
     }

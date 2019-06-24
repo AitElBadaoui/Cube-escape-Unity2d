@@ -54,6 +54,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BG Script\BGScript.cs" />
+     <Compile Include="Assets\Scripts\Helper Script\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Helper Script\SoundManager.cs" />
      <Compile Include="Assets\Scripts\Platform Scripts\PlatformScript.cs" />
      <Compile Include="Assets\Scripts\Platform Scripts\PlatformSpawner.cs" />
      <Compile Include="Assets\Scripts\Player Script\PlayerBounds.cs" />
