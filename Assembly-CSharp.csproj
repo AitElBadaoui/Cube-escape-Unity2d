@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DestroyPartical.cs" />
      <Compile Include="Assets\Scripts\BG Script\BGScript.cs" />
      <Compile Include="Assets\Scripts\Helper Script\GameManager.cs" />
      <Compile Include="Assets\Scripts\Helper Script\SoundManager.cs" />
@@ -81,6 +82,9 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>/Users/mouad/UnityProject/Falling Down/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Editor">
+ <HintPath>/Users/mouad/UnityProject/Falling Down/Library/ScriptAssemblies/Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
  <HintPath>/Users/mouad/UnityProject/Falling Down/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
@@ -89,6 +93,9 @@
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>/Users/mouad/UnityProject/Falling Down/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="XiaomiSupport">
+ <HintPath>/Users/mouad/UnityProject/Falling Down/Library/ScriptAssemblies/XiaomiSupport.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>/Users/mouad/UnityProject/Falling Down/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -281,6 +288,12 @@
  </Reference>
  <Reference Include="FacebookNamedPipeClient">
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.0a5/PlaybackEngines/Facebook/SDK/7.9.4/FacebookNamedPipeClient.dll</HintPath>
+ </Reference>
+ <Reference Include="ChannelPurchase">
+ <HintPath>/Users/mouad/UnityProject/Falling Down/Library/PackageCache/com.unity.xiaomi@1.0.3/ChannelPurchase.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityStore">
+ <HintPath>/Users/mouad/UnityProject/Falling Down/Library/PackageCache/com.unity.xiaomi@1.0.3/UnityStore.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.0a5/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

@@ -7,6 +7,8 @@ public class PlayerBounds : MonoBehaviour
     public float min_X = -2.6f, max_X = 2.6f;
     public float min_Y = -5.6f, max_Y = 5.6f;
     private bool out_Of_Bounds;
+    public GameObject blood;
+
 
     // Update is called once per frame
     void Update()
@@ -42,9 +44,15 @@ public class PlayerBounds : MonoBehaviour
     {
         if(target.gameObject.tag == "TopSpike")
         {
+            ShowBlood();
             transform.position = new Vector2(1000f, 1000f);
             SoundManager.instance.DeathSound();
             GameManager.instance.RestartGame();
         }
+    }
+
+    public void ShowBlood()
+    {
+        Instantiate(blood, transform.position, Quaternion.identity);
     }
 }

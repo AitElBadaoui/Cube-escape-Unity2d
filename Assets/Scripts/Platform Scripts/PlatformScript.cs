@@ -56,6 +56,7 @@ public class PlatformScript : MonoBehaviour
         {
             if (is_Spike)
             {
+                target.gameObject.GetComponent<PlayerBounds>().ShowBlood();
                 target.transform.position = new Vector2(1000f, 1000f);
                 SoundManager.instance.DeathSound();
                 GameManager.instance.RestartGame();
